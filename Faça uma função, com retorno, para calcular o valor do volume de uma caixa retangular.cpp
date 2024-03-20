@@ -13,7 +13,7 @@ int main(){
 	printf("Informe a altura: ");
 	scanf("%f", &a);
 
-	printf("O volume da caixa retangular é: %.2f\n", volume(c, l, a));
+	printf("O volume da caixa retangular Ã©: %.2f\n", volume(c, l, a));
 	return(0);
 }
 
