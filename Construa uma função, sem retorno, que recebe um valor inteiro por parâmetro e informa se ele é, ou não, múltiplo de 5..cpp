@@ -6,7 +6,7 @@ void MultiploDeCinco(int v);
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 int n;
-	printf("Informe um número: ");
+	printf("Informe um nÃºmero: ");
 	scanf("%i", &n);
 MultiploDeCinco(n);
 return(0);
@@ -14,8 +14,8 @@ return(0);
 
 void MultiploDeCinco(int v){
 	if (v % 5 == 0){
-	printf("%i é múltiplo de 5!", v);
+	printf("%i Ã© mÃºltiplo de 5!", v);
 } else{
-	printf("%i não é múltiplo de 5!", v);
+	printf("%i nÃ£o Ã© mÃºltiplo de 5!", v);
 }
 }
