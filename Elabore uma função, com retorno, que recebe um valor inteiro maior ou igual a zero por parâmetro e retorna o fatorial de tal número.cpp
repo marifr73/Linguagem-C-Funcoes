@@ -6,10 +6,10 @@ int fatorial (int n);
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 int n;
-	printf("Informe um número: ");
+	printf("Informe um nÃºmero: ");
 	scanf("%i", &n);
 
-	printf("O fatoria de %i é: %i", n, fatorial(n));
+	printf("O fatoria de %i Ã©: %i", n, fatorial(n));
 return(0);
 }
 
