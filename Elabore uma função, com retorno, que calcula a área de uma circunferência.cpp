@@ -8,9 +8,9 @@ float area (float a);
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 float n;
-	printf("Informe o raio da circunferência: ");
+	printf("Informe o raio da circunferÄ™ncia: ");
 	scanf("%f", &n);
-	printf("A área de circunferencia é: %.2f", area(n));
+	printf("A Ã¡rea de circunferencia Ã©: %.2f", area(n));
 return(0);
 }
 
