@@ -14,7 +14,7 @@ scanf("%f", &b);
 	printf("Informe a terceira nota: ");
 scanf("%f", &c);
 
-	printf("A média das 3 notas é: %.2f\n", media(a, b, c));
+	printf("A mÃ©dia das 3 notas Ã©: %.2f\n", media(a, b, c));
 	conceito(media(a, b, c));
 return(0);
 }
