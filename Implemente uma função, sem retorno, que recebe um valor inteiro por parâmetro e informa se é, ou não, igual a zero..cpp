@@ -5,7 +5,7 @@ void verificaZero(int v);
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 int n;
-	printf("Informe um número inteiro: ");
+	printf("Informe um nÃºmero inteiro: ");
 	scanf("%i", &n);
 	verificaZero(n);
 return(0);
@@ -13,8 +13,8 @@ return(0);
 
 void verificaZero(int v){
   if(v == 0) {
-        printf("O valor é zero!\n");
+        printf("O valor Ã© zero!\n");
     } else {
-        printf("O valor não é zero!\n");
+        printf("O valor nÃ£o Ã© zero!\n");
     }
 }
