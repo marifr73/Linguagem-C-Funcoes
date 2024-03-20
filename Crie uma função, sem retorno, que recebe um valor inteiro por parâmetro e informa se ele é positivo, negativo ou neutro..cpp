@@ -5,7 +5,7 @@ void PNN (int n);
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 int n;
-	printf("Informe um número inteiro: ");
+	printf("Informe um nÃºmero inteiro: ");
 	scanf("%i", &n);
 	PNN(n);
 return(0);
