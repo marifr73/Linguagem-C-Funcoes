@@ -13,7 +13,7 @@ return(0);
 } 
 
 void PI (int n){
-	if (n % 2 == 0){
+if (n % 2 == 0){
 		printf("O número é par!");
 } else{
 		printf("O número é impar!");
