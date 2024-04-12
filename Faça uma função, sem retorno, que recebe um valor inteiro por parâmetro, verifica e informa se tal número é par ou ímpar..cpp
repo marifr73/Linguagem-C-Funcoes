@@ -5,10 +5,10 @@ void PI (int n);
 
 int main(){
 	setlocale(LC_ALL, "Portuguese");
-int n;
+	int n;
 	printf("Informe um número: ");
 	scanf("%i", &n);
-PI(n);
+	PI(n);
 return(0);
 } 
 
